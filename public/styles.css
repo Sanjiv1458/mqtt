@@ -1,0 +1,26 @@
+.card {
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  transform: translateY(-4px);
+}
+.card-header {
+  background-color: #F8F9FA;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.card-body {
+  background-color: #FFFFFF;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+.card-on {
+  background-color: #DFF0D8;
+}
+.card-off {
+  background-color: #F8D7DA;
+}
