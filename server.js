@@ -13,7 +13,7 @@ app.use(express.static(publicPath));
 
 const mqtt_server = 'broker.hivemq.com';
 const mqtt_port = 1883;
-const mqtt_topic = 'SENSOR_DATA_0994853';
+const mqtt_topic = 'PARKING_SYSTEM_DATA';
 
 const mqttClient = mqtt.connect(`mqtt://${mqtt_server}:${mqtt_port}`);
 
