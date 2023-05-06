@@ -1,6 +1,6 @@
 $(document).ready(function () {
-  const socket = new WebSocket('ws://localhost:3000');
-  socket.onmessage = function (event) {
+  const ws = new WebSocket("ws://" + window.location.host);
+  ws.onmessage = function (event) {
     const data = event.data.split(',');
     const sensorList = $('#sensor-list');
     sensorList.html('');
